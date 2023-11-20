@@ -1,0 +1,32 @@
+.subject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 25px 0px;
+}
+
+.subject_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-size: 14px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.subject_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 3px;
+    padding: 8px 10px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+}
+
+.subject_text {
+    margin-top: 10px;
+    font-size: 12px;
+}
