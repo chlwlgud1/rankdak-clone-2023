@@ -5,4 +5,10 @@
 
 @import "header.css";
 @import "gnb.css";
-@import "subject.css"
+@import "subject.css";
+
+
+html {
+    height: 500vh;
+    white-space: nowrap;
+}
