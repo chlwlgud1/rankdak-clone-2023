@@ -1,0 +1,159 @@
+.recommend {
+    margin: 0px 12px;
+}
+
+.recommend_main {
+    display: flex;
+}
+
+.recommend_main_text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.recommend_main_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 8px;
+}
+
+.recommend_main_item img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+
+.recommend_main_item-info-title {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.recommend_main_item-info-subtitle {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(129, 129, 129);
+}
+
+.recommend_main_item-sale {
+    font-size: 14px;
+    color: red;
+}
+
+.recommend_main_item-sale strong {
+    font-size: 20px;
+    color: red;
+}
+
+.recommend_main_item-saleprice {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.recommend_main_item-origin {
+    text-decoration: line-through;
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.recommend_thema_text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.recommend_thema_list {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 12px;
+}
+
+.recommend_thema_list-subject {
+    font-size: 13px;
+    background-color: rgb(236, 236, 236);
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.recommend_thema_list-subject:first-child {
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+.recommend_thema_item-list {
+    display: flex;
+    margin: 0px 12px;
+}
+
+.recommend_thema_item-list img {
+    block-size: 100px;
+    border-radius: 15px;
+}
+
+.recommend_thema_item-list-first {
+    position: relative;
+}
+
+.recommend_thema_item-list-first img {
+    block-size: 435px;
+}
+
+.recommend_thema_item-list-box {
+    display: flex;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 22px 24px;
+    border-radius: 15px;
+    right: 15px;
+    bottom: 30px;
+}
+
+.recommend_thema_item-list-text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.recommend_thema_item-list-text-s {
+    font-size: 12px;
+    margin-top: 10px;
+    color: gray;
+    font-weight: 400;
+}
+
+.recommend_thema_item-list2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend_thema_item-list-detail {
+    display: flex;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.recommend_thema_item-list-detail span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 8px 0px;
+    margin-left: 8px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.recommend_thema_item-list-detail strong {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+}
+

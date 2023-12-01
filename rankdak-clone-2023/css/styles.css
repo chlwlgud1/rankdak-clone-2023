@@ -1,0 +1,15 @@
+
+@import "reset.css";
+
+@import "variables.css";
+
+@import "header.css";
+@import "gnb.css";
+@import "subject.css";
+@import "recommend.css";
+
+
+html {
+    height: 500vh;
+    white-space: nowrap;
+}
